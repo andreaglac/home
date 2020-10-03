@@ -63,7 +63,7 @@
     font-size: 13px;
     text-decoration: none;
     color: black;
-    line-height: 25px;
+    line-height: 30px;
      
    }
   
@@ -87,7 +87,7 @@
     color: #ffffff;
     font-size: 20px;
     padding-top: 14%;
-    padding-left: 8%;
+    padding-left: 6%;
   
     position: absolute;
    }
@@ -99,7 +99,7 @@
     line-height: 20%;
     margin: 7% 2%;
     padding-top: 1%;
-    padding-left: 7%;
+    padding-left: 4%;
     position: absolute;
    }
   
@@ -347,15 +347,15 @@
     }
   
     .violetbox3{
-      width: 180px;
-      top: 54%;
+      width: 110px;
+      top: 26%;
       left: -2px;
       position: absolute;
     }
     
     .violetbox4{
-      width: 75px;
-      top: 82%;
+      width: 50px;
+      top: 41%;
       left: -2px;
       position: absolute;
     }
