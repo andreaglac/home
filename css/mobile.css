@@ -63,7 +63,7 @@
     font-size: 13px;
     text-decoration: none;
     color: black;
-    line-height: 30px;
+    line-height: 35px;
      
    }
   
@@ -71,6 +71,13 @@
     color: #9C5AA7;
   }
   
+  #mobile-content {
+    line-height: 35px;
+    margin-top: -120%;
+  }
+
+
+
   #containerheader{
     margin-top: 0 auto;
     position: relative;
@@ -166,7 +173,7 @@
     top: 104%;
     left: 75%;
   }
-
+ 
 
   main{
     background-color: #F6F1F7;

@@ -366,11 +366,7 @@ margin-bottom: 5%;
 
 
 
-
-  
-.mobile-content {
-  display: none;
-}
+ 
 
 @media only screen and (max-width: 768px) {
   h1, h2 {
@@ -379,6 +375,9 @@ margin-bottom: 5%;
     line-height: 28px;
     width: 90%;
   }
+
+
+
 
   h2 {
     color: #E7D8E9;
@@ -394,17 +393,9 @@ margin-bottom: 5%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
-    max-width: 100vw;
     overflow-x: hidden;
     align-content: center;
   }
 
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
-
-  .project {
-    size: 50%;
-  }
-}
