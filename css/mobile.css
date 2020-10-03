@@ -2,6 +2,10 @@
     box-sizing: border-box;
   }
   
+  body {
+    max-width: 375px;
+    margin: 0 auto;
+}
   
   @font-face {
     font-family: "sourceregular";
@@ -42,8 +46,8 @@
    nav{
      width: 90%;
      display: flex;
-     flex-direction: row;
-     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
      margin-top: -2%;
      margin-left: 5%;
      
@@ -56,10 +60,10 @@
   
    nav a{
     font-family: "sourceregular";
-    font-size: 20px;
+    font-size: 13px;
     text-decoration: none;
     color: black;
-    line-height: 60px;
+    line-height: 25px;
      
    }
   
@@ -104,9 +108,9 @@
   #textbox{
     position: absolute;
     font-size: 18px;
-    width: 600px;
-    left:500px;
-    top:100px
+    width: 90%;
+    left: 2%;
+    top: 2%
   }
   
   #photo{
@@ -118,45 +122,55 @@
   }
   #textwhite{
     position: relative;
-    padding-top: 10%;
-    left: 20%;
+    
   }
   
   #quote {
+    width: 50%;
     font-family: "avenirLTSroman";
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
-    line-height: 70%;
+    color: black;
+    line-height: 120%;
+    position: absolute;
+    left: -7%;
+    top: -4%;
+    right: 20%;
   }
   
   
   .violetbox1, .violetbox2, .violetbox3, .violetbox4 {
-    width: 605px;
-    height: 25px;
+    width: 210px;
+    height: 10px;
     background-color: #E7D8E9;
     position: absolute;
-    left: -1%;
+    left: -7%;
+    top: -4%;
     z-index: -1;
   }
   
   .violetbox1{
-    top: 78%;
+    width: 220px;
+    top: -2%;
+    left: -7.5%;
   }
   
   .violetbox2{
-    width: 535px;
-    top: 90%;
+    width: 210px;
+    top: 5%;
+    left: -7.5%;
   }
   
   
   #buttonCV a{
     position: absolute;
     text-decoration: none;
+    justify-content: center;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "sourceregular";
     background-color: #ffffff;
-    margin-top: 10%;
+    margin-top: -29%;
     margin-left: -1%;
     padding: 1%;
   }
@@ -179,14 +193,14 @@
   
   #work{
     text-align: left;
-    padding-right: 40%;
-    margin-left: 45% ;
+    padding-right: 30%;
+    margin-left: 35% ;
   }
   
   .recentwork {
     font-family: "avenirbold";
     color: #000000;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 30%;
     margin-bottom: 10%;
   }
@@ -200,12 +214,11 @@
     
   .project {
     background-color: white;
-    width: 900px;
-    height: 600px;
+    width: 270px;
+    height: 255px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 17%;
+    flex-direction: left;
+    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 10%;
     box-shadow: 1px 1px 8px #d4d4d4;
@@ -216,12 +229,12 @@
   }
   
   #half{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   #half img{
-    width: 850px;
+    width: 250px;
   }
   
   
@@ -232,61 +245,64 @@
   
   .textProject{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    width: 850px;
-    line-height: 300%;
+    width: 250px;
+    line-height: 120%;
   }
   
   
   .textTittle {
   font-family: "avenirLTSbook";
-  font-size: 20px;
+  font-size: 13px;
   text-align: left;
   }
   
     .avenirbook {
     font-family: "avenirLTSbook";
-    font-size: 20px;
+    font-size: 10px;
     }
     
     .avenirbold {
       font-family: "avenirbold";
-      font-size: 40px;
+      font-size: 20px;
+      color: black;
     }
   
   .textLink a{
     font-family: "avenirLTSroman";
-    font-size: 20px;
+    font-size: 13px;
     text-decoration: none;
-    text-align: right;
+    text-align: left;
     text-decoration: underline #E7D8E9;
     color: #000000;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
   }
   
   .project2{
     background-color: white;
-    width: 900px;
-    height: 600px;
+    width: 270px;
+    height: 255px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 17%;
+    flex-direction: left;
+    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 10%;
+    box-shadow: 1px 1px 8px #d4d4d4;
   }
   
   .project3{
     background-color: white;
-    width: 900px;
-    height: 600px;
+    width: 270px;
+    height: 255px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 17%;
+    flex-direction: left;
+    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 10%;
+    box-shadow: 1px 1px 8px #d4d4d4;
   }
   
   
@@ -312,7 +328,7 @@
   .violet-tittle {
     font-family: "sourcebold";
     color: #E7D8E9;
-    font-size: 74px;
+    font-size: 30px;
     padding-left: 0%;
     margin-right: -20%;
    }
@@ -320,7 +336,7 @@
   
   #contactme a {
     font-family: "avenirLTSroman";
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
     text-align: left;
     color: #000000;
@@ -357,10 +373,11 @@
   
     #porfolioicons{
       display: flex;
+      justify-content: center;
       padding-top: 190px;
     }
     #porfolioicons a img{
-      width: 50px;
+      width: 25px;
       margin-left: 20px;
     }
   
